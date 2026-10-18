@@ -74,7 +74,7 @@ s = ((math.exp(math.fabs(x - y)) * math.fabs(x - y)**(x + y)) / (math.atan(x) + 
 print("s = {0:.4f}".format(s))
 
 
-# Формула 9
+# ПРИМЕР 9
 x = float(input("Введите x: "))
 y = float(input("Введите y: "))
 z = float(input("Введите z: "))
@@ -83,7 +83,7 @@ s = math.fabs(x**(y/x) - (y/x)**1/3) + (y - x) * (math.cos(y) - z/(y - x)) / (1 
 print("s = {0:.5f}".format(s))
 
 
-# Формула 10
+# ПРИМЕР 10
 x = float(input("Введите x: "))
 y = float(input("Введите y: "))
 z = float(input("Введите z: "))
@@ -92,7 +92,7 @@ s = 2**(-x) * math.sqrt(x + (math.fabs(y))**1/4) * (math.exp(x - 1/math.sin(z)))
 print("s = {0:.5f}".format(s))
 
 
-# Формула 11
+# ПРИМЕР 11
 x = float(input("Введите x: "))
 y = float(input("Введите y: "))
 z = float(input("Введите z: "))
@@ -102,7 +102,7 @@ s = (y**((math.fabs(x))**1/3) + math.cos(y)**3 * (math.fabs(x - y) * (1 + math.s
 print("s = {0:.6f}".format(s))
 
 
-# Формула 12
+# ПРИМЕР 12
 x = float(input("Введите x: "))
 y = float(input("Введите y: "))
 z = float(input("Введите z: "))
@@ -111,7 +111,7 @@ s = 2**(y**x) + (3**x)**y - (y * (math.atan(z) - 1/3)) / (math.fabs(x) + 1/(y**2
 print("s = {0:.5f}".format(s))
 
 
-# Формула 13
+# ПРИМЕР 13
 x = float(input("Введите x: "))
 y = float(input("Введите y: "))
 z = float(input("Введите z: "))
@@ -120,7 +120,7 @@ s = ((y + (x - 1)**1/3)**1/4) / (math.fabs(x - y) * (math.sin(z)**2 + math.tan(z
 print("s = {0:.6f}".format(s))
 
 
-# Формула 14
+# ПРИМЕР 14
 x = float(input("Введите x: "))
 y = float(input("Введите y: "))
 z = float(input("Введите z: "))
@@ -129,7 +129,7 @@ s = y**(x + 1) / ((math.fabs(y - 2))**1/3 + 3) + ((x + y/2) / (2 * math.fabs(x +
 print("s = {0:.4f}".format(s))
 
 
-# Формула 15
+# ПРИМЕР 15
 x = float(input("Введите x: "))
 y = float(input("Введите y: "))
 z = float(input("Введите z: "))
